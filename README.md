@@ -16,7 +16,7 @@ This involves implementing the concept of color segmentation using Gaussian Mixt
 - The data preparation phase involved computation and visualization of the average color histogram for each channel of the sampled RGB images for each colored buoy separately. This provides some intuition on how many
 Gaussians (N) are required to fit to the color histogram.
 - A 1-D Gaussian is used to model the color distribution of the buoys. Segmentation of the colored buoys was tried using this 1-D gaussian.
-- Implementation of Expectation-Maximization algorithm was done and can be found in [sample_em_learning.py](./Code/sample_em_learning.py).
+- Implementation of Expectation-Maximization algorithm was done and can be found in [sample_em_learning.py](https://github.com/nimbekarnd/Buoy-Detection/blob/main/Code/sample_em_learning.py).
 - EM algorithm was used to compute the model parameters, i.e. the means and variances of the N 1-D Gaussians.
 - Given the computed model parameters a color-segmented binary image was generated from the frames of the video sequence.
-- Elaborate explanation about the approach and the pipeline can be found in the [report](.Report.pdf)
+- Elaborate explanation about the approach and the pipeline can be found in the [report](https://github.com/nimbekarnd/Buoy-Detection/blob/main/Report.pdf)
