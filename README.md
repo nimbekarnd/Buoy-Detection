@@ -24,9 +24,7 @@ Gaussians (N) are required to fit to the color histogram.
 
 ### Output:
 
-
-
-![alt text](./output/all_buoy_detected_gif.gif?raw=true "All buoy detected")   
+![All buoy detected](https://github.com/nimbekarnd/Buoy-Detection/blob/main/all_buoy_detected_gif.gif)   
 
 
 **Output videos:**
