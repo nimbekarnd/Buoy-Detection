@@ -31,5 +31,40 @@ Gaussians (N) are required to fit to the color histogram.
 - [Buoy detection/segmentation using single gaussian](https://drive.google.com/file/d/1GrSIRr0rLk_Xi-ZLIZP9X_oWDslYSiAZ/view).
 - [Buoy detection/segmentation using multiple gaussians, here 3 for all buoys](https://drive.google.com/file/d/14QsOK3F9ndJLKVh7K_qXee6k0CbgWVAx/view?usp=sharing).
 
+### Instructions to run the code:
+
+Input video dataset: [here](https://drive.google.com/file/d/14VGYdseuSEVZD-AA4owDYFIY_53WfbrN/view?usp=sharing) or [here](./Code/detectbuoy.avi).
+
+- To get the avghistogram: run: 
+
+    - $ _python avg_histogram.py r_       or  
+
+    - $ _python avg_histogram.py g_       or
+
+    - $ _python avg_histogram.py y_
+
+- To train the models:
+
+    - $ _python buoytraining.py r 1_        or  
+
+    - $ _python buoytraining.py r 3_        or  
+
+    - $ _python buoytraining.py g 1_        or  
+
+    - $ _python buoytraining.py g 3_
+
+    - First argument is for buoy color and second is for number of gaussians to fit.
+
+
+- Model params are there in the folder named 'modelparams'.
+
+- To run the buoy detection script: 
+
+    - $ _python segment_buoy.py 1 1 1_      or
+
+    - $ _python segment_buoy.py 3 3 3_
+
+    - here, _1 1 1_ or _3 3 3_ represent the number of gaussians there for red, green and yellow buoy respectively.
+    
 ## Author
 [Nupur Nimbekar](https://github.com/nimbekarnd)
