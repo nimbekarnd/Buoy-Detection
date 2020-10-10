@@ -68,3 +68,5 @@ Input video dataset: [here](https://drive.google.com/file/d/14VGYdseuSEVZD-AA4ow
     
 ## Author
 [Nupur Nimbekar](https://github.com/nimbekarnd)
+[Anubhav Paras](https://github.com/anubhavparas)
+[Akash Agarwal](https://github.com/akashaga09)
