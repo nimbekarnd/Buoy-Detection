@@ -5,6 +5,7 @@
 The aim is to detect the buoys from the input video and using the proper color segmentation techniques detect the buoy.
 
 [Link to Drive to access data and output along with codes](https://drive.google.com/drive/u/0/folders/1a6EyMh_ayfpkw_dAlJfLX-UkSbeZDIJI)
+
 ---
 
 This involves implementing the concept of color segmentation using Gaussian Mixture Models and Expectation Maximization techniques.
@@ -20,3 +21,7 @@ Gaussians (N) are required to fit to the color histogram.
 - EM algorithm was used to compute the model parameters, i.e. the means and variances of the N 1-D Gaussians.
 - Given the computed model parameters a color-segmented binary image was generated from the frames of the video sequence.
 - Elaborate explanation about the approach and the pipeline can be found in the [report](https://github.com/nimbekarnd/Buoy-Detection/blob/main/Report.pdf)
+
+**Output videos:**
+- [Buoy detection/segmentation using single gaussian](https://drive.google.com/file/d/1GrSIRr0rLk_Xi-ZLIZP9X_oWDslYSiAZ/view).
+- [Buoy detection/segmentation using multiple gaussians, here 3 for all buoys](https://drive.google.com/file/d/14QsOK3F9ndJLKVh7K_qXee6k0CbgWVAx/view?usp=sharing).
