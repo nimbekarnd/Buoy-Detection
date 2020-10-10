@@ -30,3 +30,6 @@ Gaussians (N) are required to fit to the color histogram.
 **Output videos:**
 - [Buoy detection/segmentation using single gaussian](https://drive.google.com/file/d/1GrSIRr0rLk_Xi-ZLIZP9X_oWDslYSiAZ/view).
 - [Buoy detection/segmentation using multiple gaussians, here 3 for all buoys](https://drive.google.com/file/d/14QsOK3F9ndJLKVh7K_qXee6k0CbgWVAx/view?usp=sharing).
+
+## Author
+[Nupur Nimbekar](https://github.com/nimbekarnd)
