@@ -22,6 +22,13 @@ Gaussians (N) are required to fit to the color histogram.
 - Given the computed model parameters a color-segmented binary image was generated from the frames of the video sequence.
 - Elaborate explanation about the approach and the pipeline can be found in the [report](https://github.com/nimbekarnd/Buoy-Detection/blob/main/Report.pdf)
 
+### Output:
+
+
+
+![alt text](./output/all_buoy_detected_gif.gif?raw=true "All buoy detected")   
+
+
 **Output videos:**
 - [Buoy detection/segmentation using single gaussian](https://drive.google.com/file/d/1GrSIRr0rLk_Xi-ZLIZP9X_oWDslYSiAZ/view).
 - [Buoy detection/segmentation using multiple gaussians, here 3 for all buoys](https://drive.google.com/file/d/14QsOK3F9ndJLKVh7K_qXee6k0CbgWVAx/view?usp=sharing).
